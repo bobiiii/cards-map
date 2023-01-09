@@ -1,7 +1,7 @@
 import React from 'react'
 
 function HandBagCard( props) {
-    const {title,image, price , desc } = props
+    const {title,image,desc } = props
   return (
     
     
@@ -12,7 +12,7 @@ function HandBagCard( props) {
       <img src={image} class="card-img-top" alt="..."/>
         <h5 className="card-title py-1">{title}</h5>
         <p className="card-text">{desc}</p>
-        <a href="#" className="btn btn-primary w-75">Go somewhere</a>
+        <a href="#" className="btn btn-primary w-75">Add To Cart</a>
       </div>
     </div>
   </div>

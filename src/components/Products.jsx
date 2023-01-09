@@ -13,7 +13,7 @@ function Products() {
             title={product.title}
             image={product.img}
             desc={product.desc}
-            price={product.price}
+            
         />
         
         )

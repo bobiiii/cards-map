@@ -12,7 +12,7 @@ function HandBagCard( props) {
       <img src={image} class="card-img-top" alt="..."/>
         <h5 className="card-title py-1">{title}</h5>
         <p className="card-text">{desc}</p>
-        <a href="#" className="btn btn-primary w-75">Add To Cart</a>
+        <a href="https://ornate-sorbet-337cf7.netlify.com" className="btn btn-primary w-75">Add To Cart</a>
       </div>
     </div>
   </div>
